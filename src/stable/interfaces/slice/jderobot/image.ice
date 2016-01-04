@@ -49,7 +49,7 @@ module jderobot{
   class ImageData
   { 
     Time timeStamp; 				/**< TimeStamp of Data */
-    ImageDescription description; 	/**< ImageDescription of Data, for convienence purposes */
+    ImageDescription description; 		/**< ImageDescription of Data, for convienence purposes */
     ByteSeq pixelData; 				/**< The image data itself. The structure of this byte sequence depends on the image format and compression. */
   };
 
